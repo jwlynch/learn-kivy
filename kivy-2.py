@@ -9,7 +9,7 @@ from kivy.uix.gridlayout import GridLayout
 
 class LoginScreen(GridLayout):
     def __init__(self, **kwargs):
-        pass
+        super(LoginScreen, self).__init__(kwargs)
 
 class SimpleKivy(App):
     def build(self):
