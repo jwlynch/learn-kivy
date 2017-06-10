@@ -7,7 +7,8 @@ from kivy.app import App
 from kivy.uix.label import Label
 
 class SimpleKivy(App):
-    pass
+    def build(self):
+        return Label(text="hi")
 
 if __name__ == "__main__":
     # don't forget () after SimpleKivy
