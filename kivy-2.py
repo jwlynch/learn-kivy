@@ -21,6 +21,10 @@ class LoginScreen(GridLayout):
         self.password = TextInput(multiline=False, password=True)
         self.add_widget(self.password)
 
+        self.add_widget(Label(text="Two Factor Authentication:"))
+        self.tfa = TextInput(multiline=False)
+        self.add_widget(self.tfa)
+
 class SimpleKivy(App):
     def build(self):
         return LoginScreen()
