@@ -11,6 +11,7 @@ class LoginScreen(GridLayout):
     def __init__(self, **kwargs):
         super(LoginScreen, self).__init__(kwargs)
         self.cols = 2
+        self.add_widget(Label(text="Username:"))
 
 class SimpleKivy(App):
     def build(self):
