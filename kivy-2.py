@@ -15,7 +15,7 @@ class LoginScreen(GridLayout):
 
         self.add_widget(Label(text="Username:"))
         self.username = TextInput(multiline=False)
-        self.add_widget(username)
+        self.add_widget(self.username)
 
 class SimpleKivy(App):
     def build(self):
