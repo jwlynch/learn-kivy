@@ -10,7 +10,7 @@ from kivy.uix.textinput import TextInput
 
 class LoginScreen(GridLayout):
     def __init__(self, **kwargs):
-        super(LoginScreen, self).__init__(kwargs)
+        super(LoginScreen, self).__init__(**kwargs)
         self.cols = 2
         self.add_widget(Label(text="Username:"))
         self.username = TextInput(multiline=False)
