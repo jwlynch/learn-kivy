@@ -8,7 +8,8 @@ from kivy.uix.label import Label
 from kivy.uix.gridlayout import GridLayout
 
 class LoginScreen(GridLayout):
-    pass
+    def __init__(self, **kwargs):
+        pass
 
 class SimpleKivy(App):
     def build(self):
