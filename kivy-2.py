@@ -10,6 +10,7 @@ from kivy.uix.gridlayout import GridLayout
 class LoginScreen(GridLayout):
     def __init__(self, **kwargs):
         super(LoginScreen, self).__init__(kwargs)
+        self.cols = 2
 
 class SimpleKivy(App):
     def build(self):
