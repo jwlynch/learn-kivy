@@ -12,7 +12,7 @@ class LoginScreen(GridLayout):
 
 class SimpleKivy(App):
     def build(self):
-        return Label(text="hi")
+        return LoginScreen()
 
 if __name__ == "__main__":
     # don't forget () after SimpleKivy
