@@ -18,7 +18,7 @@ class LoginScreen(GridLayout):
         self.add_widget(self.username)
 
         self.add_widget(Label(text="Password:"))
-        self.password = TextInput(multiline=False)
+        self.password = TextInput(multiline=False, password=True)
         self.add_widget(self.password)
 
 class SimpleKivy(App):
