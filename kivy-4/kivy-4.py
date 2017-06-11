@@ -12,7 +12,7 @@ class Widgets(Widget):
 
 class SimpleKivy(App):
     def build(self):
-        return Label()
+        return Widgets()
 
 if __name__ == "__main__":
     # don't forget () after SimpleKivy
